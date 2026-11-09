@@ -1,8 +1,5 @@
 # DVA-CAD
 
-This project builds on [cadrille-rl](https://github.com/marinabar/cadrille-rl).
-The upstream license and attribution are preserved in `LICENSE` and `NOTICE`.
-
 ## SFT Training
 
 Four-GPU training, keeping the effective batch size at 32:
