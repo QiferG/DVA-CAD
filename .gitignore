@@ -1,0 +1,24 @@
+.vscode
+__pycache__
+data/cad-recode-v1.5
+data/text2cad
+data/deepcad_test_mesh
+data/fusion360_test_mesh
+work_dirs
+*wandb
+*/models
+*/logs
+*/tmp_data
+*/dev
+saved*
+output_data*
+exam
+google-bert
+qwen3*
+benchdata
+cadfusion
+wandb
+# Keep utils/ source code: command-based RL rendering depends on it.
+/tests/
+/tools/
+/data/

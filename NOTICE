@@ -1,0 +1,12 @@
+DVA-CAD
+
+This release contains code derived from cadrille-rl:
+https://github.com/marinabar/cadrille-rl
+
+Original copyright notice from the upstream LICENSE:
+Copyright 2025 Autonomous non-profit organization "Artificial Intelligence Research Institute"
+
+DVA-CAD modifications include model integration, configurable model and data
+paths, and simplified SFT and GRPO training workflows.
+
+The original Apache License, Version 2.0 is retained in LICENSE.
