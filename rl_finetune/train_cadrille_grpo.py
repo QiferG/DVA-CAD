@@ -23,7 +23,7 @@ from transformers import AutoConfig, AutoProcessor
 
 from dvacad import DVACAD, collate
 from rl_finetune.grpo_mm import train_with_grpo_mm
-from rl_finetune.utils_cadrille import get_metrics_from_texts, localized_reward
+from rl_finetune.utils_dvacad import get_metrics_from_texts, localized_reward
 from dataset import CadEditDataset, CadEditDataset_query
 
 os.environ["PYGLET_HEADLESS"] = "True"

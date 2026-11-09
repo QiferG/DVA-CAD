@@ -357,7 +357,7 @@ def code_to_mesh_and_brep_less_safe(code_str):
             
         # Import the representation's CAD kernel only when it is needed.
         try:
-            from utils.parse_seq2obj_rille import CADparser, write_obj_sample
+            from utils.parse_seq2obj_dvacad import CADparser, write_obj_sample
             from utils.visual_obj import OBJReconverter, BRepCheck_Analyzer, write_stl_file
             from utils.geometry.obj_parser import OBJParser
         except ImportError as exc:
